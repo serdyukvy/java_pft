@@ -1,6 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = "MyFirstProgram"
+mainClassName = "ru.stqa.pft.sandbox.MyFirstProgram"
 
 repositories
         {
@@ -9,5 +9,5 @@ repositories
 
 dependencies
         {
-            compile 'org.testng:testng:6.10'
+            compile 'org.testng:testng:6.9.10'
         }
